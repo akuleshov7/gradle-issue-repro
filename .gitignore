@@ -1,0 +1,16 @@
+target/
+.gradle/
+build/
+!ktlint/src/main/resources/config/.idea
+/.idea/
+*.iml
+out/
+.DS_Store
+
+# Vim swap files
+*.swp
+
+*.sarif
+
+# a generated file for github action
+/gradle/libs.versions.toml_snapshot
